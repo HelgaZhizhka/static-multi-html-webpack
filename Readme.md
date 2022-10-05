@@ -11,7 +11,8 @@
 
 <h3 align="center">Webpack5 multi-page template</h3>
 
-
+## Demo
+[Static multi page](https://helgazhizhka.github.io/static-multi-html-webpack/index.html)
 <!-- ABOUT THE PROJECT -->
 ## About
 
