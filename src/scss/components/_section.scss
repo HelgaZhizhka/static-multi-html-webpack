@@ -1,0 +1,40 @@
+.about .title {
+  font-size: 64px;
+  font-weight: 700;
+}
+.section {
+    &_hero {
+        min-height: calc(100vh - 160px);
+        padding: 0 10px;
+        display: flex;
+        flex-direction: column;
+        background: var(--light-color);   
+    }
+    &_about {
+      padding: 60px 20px;
+      .section__content {
+        margin: 30px
+      }
+      .section__title {
+        margin: 0 0 28px;
+      }
+      .section__heading {
+        margin: 0 0 20px;
+      }
+      .section__image {
+        img {
+          width: 300px;
+        }
+
+      }
+    }
+    &__heading {
+      font-size: 42px;
+      line-height: 45px;
+    }
+    &__title {
+      font-size: 18px;
+      line-height: 27px;  
+      font-family: var(--font-family);
+    }
+}

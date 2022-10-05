@@ -1,0 +1,30 @@
+.btn-base {
+  display: inline-block;
+  width: 200px;
+  height: 63px;
+  padding: 0 20px;
+  line-height: 60px;
+  font-weight: 500;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all .25s ease-out;
+}
+.btn-brand {
+  font-size: 18px;
+  background-color: var(--base-color);
+  border: 1px solid var(--base-color);
+  border-radius: 4px;
+  color: #FFFFFF
+}
+.btn-brand:hover {
+  background-color: transparent;
+  color: var(--base-color);
+}
+.btn-bordered {
+  border: 1px solid var(--base-color);
+  color: var(--base-color);
+}
+.btn-bordered:hover {
+  background: var(--base-color);
+  color: #FFFFFF
+}

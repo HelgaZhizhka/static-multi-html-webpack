@@ -1,0 +1,24 @@
+.hero {
+  margin: auto;
+  font-size: 24px;
+  color: #272142;
+  text-align: center;
+  &__subtitle {
+    margin: 0;
+    font-size: 36px;
+    font-family: var(--font-family);
+  }
+  &__title {
+    margin: 0 0 24px;
+    font-size: 96px;
+  }
+  p {
+    margin-bottom: 50px;
+  }
+  
+}
+@media (max-width: 991px) {
+  .hero__title  {
+    font-size: 4vmax;
+  }
+}

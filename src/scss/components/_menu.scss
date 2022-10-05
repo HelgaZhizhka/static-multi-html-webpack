@@ -1,0 +1,20 @@
+.menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.menu-item {
+  display: inline-block;
+  margin-left: 40px;
+}
+.menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(39, 33, 66, 0.7);
+  transition: all .25s ease;
+  text-decoration: none;
+}
+.menu-link:hover, .menu-link.active {
+  color: var(--base-color);
+}

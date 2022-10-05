@@ -1,0 +1,18 @@
+language: node_js
+# dist: xenial
+os: macOS Monterey
+node_js:
+  - 16.9.1
+install:
+  - npm ci
+script:
+  - npm run lint:sass
+  - npm run lint:js
+  - npm run production
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github-token: $GITHUB_TOKEN
+  local_dir: public
+  on:
+    branch: master

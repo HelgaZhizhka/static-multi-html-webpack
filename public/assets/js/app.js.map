@@ -1,0 +1,1 @@
+{"version":3,"file":"assets/js/app.js","mappings":"AAAAA,QAAQC,IAAI","sources":["webpack://Webpack5 multi-page static pages/./src/js/app.js"],"sourcesContent":["console.log('mounted app')"],"names":["console","log"],"sourceRoot":""}

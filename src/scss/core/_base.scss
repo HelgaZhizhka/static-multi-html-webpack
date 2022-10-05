@@ -1,0 +1,13 @@
+:root {
+    --base-color: #6c63ff;
+    --light-color: #f9f7fe;
+    --color-text: #272142;
+    --color-head: #000;
+    --color-muted: rgba(39, 33, 66, .7);
+}
+body {
+    color: var(--color-text);
+    font-family: var(--font-family);
+    line-height: var(--line-height);
+    font-size: var(--font-size);
+}
