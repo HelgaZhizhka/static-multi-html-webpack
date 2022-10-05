@@ -187,12 +187,13 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-#### Olga Zhyzhka - helgazhyzhka@gmail.com
+#### Olga Zhyzhka - [![LinkedIn][linkedin-shield]][linkedin-url] 
+
+helgazhyzhka@gmail.com
+
 [@helgaj](https://t.me/helgaj) - https://t.me/helgaj
+
 [helgawebmentor](https://vk.com/helgawebmentor) 
-[![LinkedIn][linkedin-shield]][linkedin-url] 
-
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
