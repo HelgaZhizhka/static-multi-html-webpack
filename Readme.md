@@ -184,6 +184,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Continuous Integration
 [![Travis](https://img.shields.io/travis/thinking-home/migrator.svg)](https://travis-ci.org/thinking-home/migrator)
+This boilerplate template contains integration with Travis CI. The build system runs all linting scripts and deploys production optimized pages to GitHub pages upon push to the master branch
+[Deployments history](https://github.com/HelgaZhizhka/static-multi-html-webpack/deployments)
 
 <!-- CONTACT -->
 ## Contact
