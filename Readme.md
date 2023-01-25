@@ -195,7 +195,7 @@ helgazhyzhka@gmail.com
 
 [@helgaj](https://t.me/helgaj) - https://t.me/helgaj
 
-[helgawebmentor](https://vk.com/helgawebmentor) 
+[helgawebmentor](https://vk.com/web_mentor_forstart) 
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
