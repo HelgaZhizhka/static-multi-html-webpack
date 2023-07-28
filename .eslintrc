@@ -2,14 +2,13 @@
   "extends": "airbnb",
   "env": {
     "node": true,
-    // "jasmine": true,
     "es2020": true
   },
   "rules": {
     "semi": 0,
     "no-use-before-define": 0,
     "eol-last": 0,
-    "no-console": "off",
+    "no-console": "on",
     "func-names": 0,
     "prefer-arrow-callback": 0,
     "no-var": 0,
@@ -24,7 +23,7 @@
     "jsx-a11y/anchor-is-valid": ["warn", { "aspects": ["invalidHref"] }],
     "import/no-unresolved": 0,
     "import/extensions": 0,
-    "import/order": 0
+    "import/order": 0,
   },
   "globals": {
     "browser": false,
