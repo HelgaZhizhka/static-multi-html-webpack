@@ -21,9 +21,23 @@
     "watch": "webpack --mode development --watch  --config configuration/webpack.dev.config.js",
     "start": "webpack serve --no-client-overlay-warnings --open --mode development --config configuration/webpack.dev.config.js",
     "production": "webpack --mode production --config configuration/webpack.prod.config.js",
+    "lint:fix": "eslint --fix src/js/ --color",
     "lint:sass": "sass-lint -v -q",
     "lint:js": "eslint --ext .js src/js/",
     "stats": "webpack --mode production  --config configuration/webpack.prod.config.js --analyze"
+  },
+  "husky": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "lint:fix",
+      "git add"
+    ],
+    "*.{scss,sass}": [
+      "sass-lint -v -q --fix",
+      "git add"
+    ]
   },
   "devDependencies": {
     "@babel/core": "^7.19.1",
@@ -61,5 +75,9 @@
     "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.11.0",
     "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.3"
   }
 }
